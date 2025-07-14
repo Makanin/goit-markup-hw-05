@@ -498,7 +498,8 @@ section {
   min-height: 584px;
   max-width: 408px;
   width: 100%;
-  background-color: #fcfcfc;
+  height: 100%;
+  background-color: gba(46, 47, 66, 0.4);
   border-radius: 4px;
   opacity: 0;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
