@@ -1,3 +1,13 @@
+// let modal = document.querySelector('#modal');
+// let openBtn = document.querySelector('#modal-open');
+// let closeBtn = document.querySelector('#modal-close');
+// modal.addEventListener('close', () => elem.classList.remove('modal-open'));
+// openBtn.addEventListener('click', () => {
+//   modal.showModal();
+//   setTimeout(() => modal.classList.add('modal-open'));
+// });
+// closeBtn.addEventListener('click', () => modal.close());
+
 (() => {
   const refs = {
     modal: document.querySelector('#modal'),
