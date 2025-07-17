@@ -493,8 +493,9 @@ section {
   height: 100%;
   background-color: #2E2F4266;
 
+  /*  
   opacity: 0;
-  pointer-events: none;
+  pointer-events: none;*/
   z-index: 1000;
 
 }
