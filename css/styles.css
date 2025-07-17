@@ -496,8 +496,8 @@ section {
   opacity: 0;
   pointer-events: none;
   z-index: 1000;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) , 
-  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+             visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-overlay .is-open{
   opacity: 1;
@@ -561,10 +561,7 @@ section {
   border-color: #404bbf;
 }
 
-.button-close-modal:hover .close-icon {
-  fill: #ffffff;
-}
-
+.button-close-modal:hover .close-icon ,
 .button-close-modal:focus .close-icon {
   fill: #ffffff;
 }
