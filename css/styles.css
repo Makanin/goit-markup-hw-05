@@ -517,11 +517,11 @@ section {
              visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal::backdrop {
-   /* any styles
+.modal.backdrop{
+   /* any styles*/
   opacity: 0;
   visibility: hidden;
-  pointer-events: none;*/
+  pointer-events: none;
   background-color: transparent; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
